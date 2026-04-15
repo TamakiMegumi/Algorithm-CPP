@@ -12,11 +12,18 @@ endif()
 project ("Algorithm")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (Algorithm "Main.cpp" "Algorithm.h")
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET Algorithm PROPERTY CXX_STANDARD 20)
-endif()
+
 
 # TODO: 如有需要，请添加测试并安装目标。
-target_compile_features(Algorithm PRIVATE cxx_std_23)
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+add_executable(Algorithm 
+    src/main.cpp
+    src/Array.cpp
+)
+
+target_include_directories(Algorithm PRIVATE 
+    ${CMAKE_SOURCE_DIR}/include
+)
