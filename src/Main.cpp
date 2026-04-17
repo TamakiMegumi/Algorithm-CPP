@@ -4,7 +4,10 @@
 using std::cin, std::cout, std::cerr, std::clog, std::endl;
 int main()
 {
-	cout << "Hello CMake." << endl;
-	std::vector<int> v;
+	
+	Array<int> a;
+	a.push_back(2);
+	cout << a.front();
+
 	return 0;
 }

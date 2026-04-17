@@ -57,14 +57,6 @@ build CMakeFiles\Algorithm.dir\src\Main.cpp.obj: CXX_COMPILER__Algorithm_unscann
   TARGET_COMPILE_PDB = CMakeFiles\Algorithm.dir\
   TARGET_PDB = Algorithm.pdb
 
-build CMakeFiles\Algorithm.dir\src\Array.cpp.obj: CXX_COMPILER__Algorithm_unscanned_Debug E$:\Code\program\Algorithm\src\Array.cpp || cmake_object_order_depends_target_Algorithm
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++latest -ZI
-  INCLUDES = -IE:\Code\program\Algorithm\include
-  OBJECT_DIR = CMakeFiles\Algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles\Algorithm.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\Algorithm.dir\
-  TARGET_PDB = Algorithm.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algorithm
@@ -73,7 +65,7 @@ build CMakeFiles\Algorithm.dir\src\Array.cpp.obj: CXX_COMPILER__Algorithm_unscan
 #############################################
 # Link the executable Algorithm.exe
 
-build Algorithm.exe: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles\Algorithm.dir\src\Main.cpp.obj CMakeFiles\Algorithm.dir\src\Array.cpp.obj
+build Algorithm.exe: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles\Algorithm.dir\src\Main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

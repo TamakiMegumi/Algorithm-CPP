@@ -1,4 +1,5 @@
 # ninja log v6
-18	106	7978794789422894	CMakeFiles/Algorithm.dir/src/Array.cpp.obj	cfc5679e468afbaa
-7	2154	7978794789311407	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
-2156	2872	7978794810801419	Algorithm.exe	ec56d8c48fbd9494
+13	940	7979644551479426	CMakeFiles/Algorithm.dir/src/Array.cpp.obj	cfc5679e468afbaa
+12	1936	7979648133713429	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+1937	2240	7979648152963222	Algorithm.exe	2bd050396a9b1954
+70	822	7979640319665593	CMakeFiles/Algorithm.dir/src/List.cpp.obj	ab5a8af4ee9d73cd

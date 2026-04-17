@@ -21,9 +21,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(Algorithm 
     src/main.cpp
-    src/Array.cpp
-)
+    
+    )
 
-target_include_directories(Algorithm PRIVATE 
+ target_include_directories(Algorithm PRIVATE 
     ${CMAKE_SOURCE_DIR}/include
 )
