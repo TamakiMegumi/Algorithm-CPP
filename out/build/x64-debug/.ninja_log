@@ -1,0 +1,17 @@
+# ninja log v6
+13	940	7979644551479426	CMakeFiles/Algorithm.dir/src/Array.cpp.obj	cfc5679e468afbaa
+12	1936	7979648133713429	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+1937	2240	7979648152963222	Algorithm.exe	2bd050396a9b1954
+70	822	7979640319665593	CMakeFiles/Algorithm.dir/src/List.cpp.obj	ab5a8af4ee9d73cd
+11	2419	7981150189282627	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+2421	6849	7981150213384261	Algorithm.exe	77737cb9823f5bc2
+10	2362	7981156035289420	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+2364	2724	7981156058832946	Algorithm.exe	77737cb9823f5bc2
+10	2232	7981157988850340	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+2234	2635	7981158011090438	Algorithm.exe	77737cb9823f5bc2
+9	1981	7981160778103276	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+1982	2318	7981160797832424	Algorithm.exe	77737cb9823f5bc2
+9	2049	7981163430243626	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+2051	2382	7981163450659324	Algorithm.exe	77737cb9823f5bc2
+14	2320	7981163792132549	CMakeFiles/Algorithm.dir/src/Main.cpp.obj	cfe98404f94626f2
+2321	2674	7981163815202973	Algorithm.exe	77737cb9823f5bc2
