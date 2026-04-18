@@ -42,8 +42,8 @@ namespace Algorithm {
 		T& at(size_t index);
 		const T& at(size_t index)const;
 
-		void resize(size_t length, T e);
-		void assign(size_t length, T e);
+		void resize(size_t length, const T& e);
+		void assign(size_t length, const T& e);
 		void reserve(size_t newCapacity);
 	};
 
@@ -127,7 +127,7 @@ namespace Algorithm {
 	}
 
 	template<typename T>
-	void Array<T>::resize(size_t length, T e) {
+	void Array<T>::resize(size_t length, const T& e) {
 		if (length < this->length) {
 			this->length = length;
 		}
@@ -143,7 +143,7 @@ namespace Algorithm {
 	}
 
 	template<typename T>
-	void Array<T>::assign(size_t length, T initnum) {
+	void Array<T>::assign(size_t length, const T& initnum) {
 		reserve(length);
 		this->length = length;
 		for (size_t i = 0; i < length; i++) {
